@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Game</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h2 id="player1name"></h2><span id="player1score"></span>
+    <h2 id="player2name"></h2><span id="player2score"></span>
+
+<div class="container">
+	<center>
+		<h2 style="color: white;">Math Game!!!!!!!!!!!!!!!!!!!!</h2>
+		<h3 id="questionturn"></h3>
+		<h3 id="answerturn"></h3>
+		<div id="output" class="col-lg-6"></div>
+
+
+		<br>
+		<br>
+
+		<label>Send You Number: <b style="color: magenta">Try putting number which has 2 or more number</b></label>
+
+		<br>
+		<input type="text"id="number" class="form-control" placeholder="Type a number">
+       <br><br>
+	   <button class="btn btn-success" onclick="sendnumber()" style="width: 40%;">Submit</button>
+	</center>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
